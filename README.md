@@ -20,7 +20,7 @@ And so the service definition would be something like this:
 
 ```
 define service {
-  host_name                     lvp-sys-prlb01
+  host_name                     f5_viprion.example.com
   service_description           A Very Importand VIP
   check_command                 check_f5_virtual_conns!very.important.vip.example.com!80!90
   use                           vip_general
